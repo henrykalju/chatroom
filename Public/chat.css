@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+
+}
+
+#main-list {
+	list-style-type: none
+}
+
+li {
+	text-align: left;
+	white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */ 
+    margin-right: 30px;
+    border-bottom: 1px solid RGBA(0, 0, 0, 0.1);
+    font-family: "Lucida Sans Unicode";
+    font-size: 17px;
+}
+
+.chat-main {
+	width: 40em;
+	height: 30em;
+	border: 3px solid black;
+	margin: 2em auto;
+	overflow-y: scroll;
+	border-radius: 5px;
+}
+
+#input {
+	width: 37em;
+	height: 7em;
+	font-family: "Lucida Sans Unicode";
+	font-size: 17px;
+}
+
+users = {
+	asdasdasdasd: "kusti";
+}
