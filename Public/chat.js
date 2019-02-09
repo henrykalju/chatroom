@@ -34,7 +34,7 @@ socket.on("connect", function(){
 			window.location.href = "/index.html"
 		}
 	}, 200)
-
+	socket.emit("register", localStorage.getItem("username"));
 })
 
 socket.on("msg", function(messages){
